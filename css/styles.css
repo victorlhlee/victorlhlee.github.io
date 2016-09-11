@@ -35,12 +35,14 @@ body{
 
 .days{
   margin-left: 300px;
+  font-size: 25px;
 }
 
 .times{
   float: right;
   margin-top: -23px;
   margin-right: 250px;
+  font-size: 25px;
 
 }
 
