@@ -36,14 +36,15 @@ body{
 .date{
   padding: 5px;
   margin-top: 5px;
+  left: 35%;
 }
 
 .days{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .times{
-  font-size: 20px;
+  font-size: 25px;
 
 }
 
