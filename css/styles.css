@@ -1,3 +1,55 @@
 body{
-  background-color: red;
+  background-color: #cf4646;
+  font-family: 'Kaushan Script', cursive;
+  color: white;
 }
+
+#main-content{
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+
+#title{
+  font-size: 60px;
+  margin-left: 125px;
+}
+
+
+
+#subtitle{
+  width: 90vw;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 60px;
+  margin-top: -50px;
+
+}
+
+#current{
+  /*background-color: yellow;*/
+  margin-top: 300px;
+}
+
+
+.days{
+  margin-left: 300px;
+}
+
+.times{
+  float: right;
+  margin-top: -23px;
+  margin-right: 250px;
+
+}
+
+/*.days{
+  margin-left: 23px;
+}
+
+
+.times{
+  float: right;
+  margin-right: 600px;
+  margin-top: -23px;
+}*/
