@@ -29,20 +29,21 @@ body{
 
 #current{
   /*background-color: yellow;*/
-  margin-top: 300px;
+  margin-top: 400px;
+  padding: 10px;
 }
 
 
 .days{
-  margin-left: 440px;
-  font-size: 25px;
+  margin-left: 400px;
+  font-size: 20px;
 }
 
 .times{
   float: right;
   margin-top: -34px;
-  margin-right: 430px;
-  font-size: 25px;
+  margin-right: 400px;
+  font-size: 20px;
 
 }
 
