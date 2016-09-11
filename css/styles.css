@@ -1,5 +1,5 @@
 body{
-  background-color: #FF1800;
+  background-color: #9E34D3;
   /*background-color: #cf4646;*/
   font-family: 'Kaushan Script', cursive;
   color: white;
@@ -33,6 +33,10 @@ body{
   padding: 10px;
 }
 
+.date{
+  padding: 5px;
+  margin-top: 5px;
+}
 
 .days{
   font-size: 20px;
@@ -43,13 +47,3 @@ body{
 
 }
 
-/*.days{
-  margin-left: 23px;
-}
-
-
-.times{
-  float: right;
-  margin-right: 600px;
-  margin-top: -23px;
-}*/
