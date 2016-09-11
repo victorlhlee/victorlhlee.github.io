@@ -1,6 +1,5 @@
 body{
-  background-color: #9E34D3;
-  /*background-color: #cf4646;*/
+  background-color: #cf4646;
   font-family: 'Kaushan Script', cursive;
   color: white;
 }
@@ -28,9 +27,7 @@ body{
 }
 
 #current{
-  /*background-color: yellow;*/
-  margin-top: 400px;
-  padding: 10px;
+  margin-top: 286px;
 }
 
 .date{
