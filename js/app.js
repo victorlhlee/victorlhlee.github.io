@@ -1,5 +1,3 @@
-console.log("hi");
-
 window.onload = function(){
 
 var dates = [
