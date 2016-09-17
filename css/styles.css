@@ -27,23 +27,28 @@ body{
 }
 
 #current{
+  /*background-color: green;*/
+  margin-left: 500px;
+  margin-right: 500px;
   margin-top: 330px;
 }
 
 .date{
   padding: 5px;
   margin-top: 5px;
-  left: 35%;
+  /*left: 35%;*/
 }
 
 .days{
   font-size: 25px;
-  margin-left: 550px;
+ /* margin-left: 550px;*/
 }
 
 .times{
   font-size: 25px;
-  margin-left: 550px;
+  float: right;
+  margin-top: -30px;
+ /* margin-left: 550px;*/
 
 }
 
