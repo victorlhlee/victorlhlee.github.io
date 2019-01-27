@@ -1,54 +1,120 @@
-body{
-  background-color: #cf4646;
-  font-family: 'Kaushan Script', cursive;
-  color: white;
-}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-#main-content{
-  position: absolute;
-  top: 10%;
-  left: 35%;
-}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  font-family: "Montserrat"; }
 
-#title{
-  font-size: 60px;
-  margin-left: 125px;
-}
+body {
+  margin: 0;
+  margin-top: 75px;
+  font-family: sans-serif; }
 
+  img{
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+  }
+#main-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 750px;
+  margin: 0 auto; }
 
+#about {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #336699; }
+  @media (min-width: 600px) {
+    #about #profile-pic {
+      background-image: url("../assets/small-profile-pic.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 115%;
+      width: 125px;
+      height: 125px;
+      border-radius: 50%;
+      margin-right: 20px; } }
 
-#subtitle{
-   
+#header, .sub-header {
+  font-family: "Rhoza One";
   font-size: 45px;
-  font-weight: 300;
-  line-height: 60px;
-  margin-top: -50px;
+  font-weight: bold; }
 
-}
+.sub-header {
+  margin-top: 15px;
+  font-size: 25px; }
 
-#current{
-  /*background-color: green;*/
-  margin-left: 500px;
-  margin-right: 500px;
-  margin-top: 330px;
-}
+.title, .sub-title, .sub-title > a {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #FF6600; }
+  .title a:hover, .sub-title a:hover, .sub-title > a a:hover {
+    color: #B31B1B;
+    text-decoration: underline; }
 
-.date{
-  padding: 5px;
-  margin-top: 5px;
-  /*left: 35%;*/
-}
+#title {
+  margin-bottom: 10px;
+  font-size: 30px; }
 
-.days{
-  font-size: 25px;
- /* margin-left: 550px;*/
-}
+.sub-title {
+  margin-top: 10px;
+  margin-bottom: 3px; }
 
-.times{
-  font-size: 25px;
-  float: right;
-  margin-top: -30px;
- /* margin-left: 550px;*/
+.date {
+  font-style: italic;
+  margin-bottom: 10px; }
 
-}
+.info {
+  width: 100%;
+  padding: 15px 15px 25px 15px;
+  border-bottom: 1px solid #DCDCDC; }
+  .info .details {
+    margin-bottom: 20px; }
+  .info #skills {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 100px; }
+    .info #skills div {
+      margin: 5px; }
 
+.company {
+  margin-bottom: 2px;
+  color: #003366;
+  font-weight: bold;
+  text-decoration: none; }
+  .company a {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none; }
+    .company a:hover {
+      text-decoration: underline; }
+
+
+ 
