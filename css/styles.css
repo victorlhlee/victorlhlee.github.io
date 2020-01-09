@@ -119,6 +119,7 @@ body {
 
  #summary{
    line-height: 32px;
+   color: red;
  }
 
  .details{
