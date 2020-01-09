@@ -117,4 +117,10 @@ body {
       text-decoration: underline; }
 
 
- 
+ #summary{
+   line-height: 28px;
+ }
+
+ .details{
+   line-height: 22px;
+ }
